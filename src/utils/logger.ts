@@ -1,9 +1,21 @@
 /* 
+elasticsearch
+cd "C:\Users\carlo\Downloads\elasticsearch-9.3.2-windows-x86_64\elasticsearch-9.3.2"
+bin/elasticsearch
+
+
+logstash
 cd "C:\Users\carlo\Downloads\elasticsearch-9.3.2-windows-x86_64\elasticsearch-9.3.2"
 bin/elasticsearch
 bin\logstash.bat -f "C:\Users\carlo\Documents\Meus arquivos\Faculdade\monitoramento-logging\logstash.conf"
 
-cd "C:\Users\carlo\Documents\Meus arquivos\Faculdade\monitoramento-logging" */
+kibana
+cd "C:\Users\carlo\Downloads\kibana-9.3.2"
+bin\kibana.bat
+
+prometheus
+cd "C:\Users\carlo\Downloads\prometheus-3.10.0.windows-amd64"
+.\prometheus.exe --config.file=prometheus.yml */
 
 import winston from "winston";
 
