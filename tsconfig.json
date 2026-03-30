@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    /* Base */
+    "target": "ES2020",                // Versão JS final (pode ser ES5, ES6, etc.)
+    "module": "NodeNext",             // Como os módulos são importados (NodeNext/ESNext)
+    "lib": ["ES2020", "DOM"],         // Bibliotecas incluídas (ex: DOM para front-end)
+    
+    /* Strictness (Segurança) */
+    /* "strict": true,  */                  // Habilita verificações rigorosas (essencial)
+    /* "noImplicitAny": true,  */           // Evita tipos 'any' implícitos
+    
+    /* Módulos e Saída */
+    "outDir": "./dist",               // Onde os arquivos compilados (JS) serão salvos
+    "rootDir": "./src",               // Onde ficam os arquivos TypeScript
+    "moduleResolution": "NodeNext",   // Como o TS acha os módulos
+    
+    /* Avançado/Performance */
+    "esModuleInterop": true,          // Melhora compatibilidade com CJS/ESM
+    "skipLibCheck": true,             // Pula checagem de tipos de bibliotecas (rápido)
+    "incremental": true               // Acelera recompilação
+  },
+  "include": ["src/**/*"],            // Arquivos para incluir
+  "exclude": ["node_modules", "dist"] // Arquivos para ignorar
+}

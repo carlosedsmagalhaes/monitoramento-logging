@@ -1,0 +1,34 @@
+{
+  "name": "monitoramento-logging",
+  "version": "1.0.0",
+  "description": "Repositório dedicado ao monitoramento e logging no CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "calc": "ts-node src/calcs.ts",
+    "dev": "ts-node src/server.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosedsmagalhaes/monitoramento-logging.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/carlosedsmagalhaes/monitoramento-logging/issues"
+  },
+  "homepage": "https://github.com/carlosedsmagalhaes/monitoramento-logging#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "install": "^0.13.0",
+    "typescript": "^6.0.2",
+    "typescriptnpm": "^1.0.1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "prom-client": "^15.1.3",
+    "winston": "^3.19.0"
+  }
+}
